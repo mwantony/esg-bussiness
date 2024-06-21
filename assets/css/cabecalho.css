@@ -1,0 +1,91 @@
+.logo {
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+
+.cabecalho {
+  margin-top: -1rem;
+  padding: 1rem 4rem;
+  display: flex;
+  height: 90vh;
+}
+
+.cabecalho__div:first-child {
+    width: 60vw;
+}
+
+.cabecalho__div:last-child {
+    width: 40vw;
+    display: flex;
+    margin-top: -10rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__titulo {
+  font-size: 3.5rem;
+  color: var(--title-color);
+}
+.cabecalho__paragrafo {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.cabecalho__botoes {
+    display: flex;
+}
+
+.cabecalho__botao--contate-nos {
+    padding: .7rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.cabecalho__botao--contate-nos:hover {
+    box-shadow: 0px 0px 0px 5px #716fe556;
+    cursor: pointer;
+}
+
+.cabecalho__botao--assistir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    font-size: 1rem;
+    margin-left: 2rem;
+    transition: 500ms;
+}
+.cabecalho__botao--assistir:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+.cabecalho__botao--assistir > svg {
+  margin-right: .5rem;
+}
+
+.cabecalho__grafico {
+    width: 80%;
+}
+
+.cabecalho__colaboradores {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-top: -4rem;
+    box-shadow: 0px 2px 20px  var(--text-shadow);
+}
+.cabecalho__perfil {
+    margin-left: -1rem;
+}
+.cabecalho__comment {
+    color: var(--title-color);
+}
+.cabecalho__comment--paragraph {
+    color: var(--text-color);
+}
