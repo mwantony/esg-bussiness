@@ -98,3 +98,67 @@
 .cabecalho__comment--paragraph {
   color: $text-color;
 }
+
+@media(max-width: $large) {
+  .cabecalho {
+    height: 70vh;
+    flex-direction: column-reverse;
+    margin-bottom: 5rem;
+    &__titulo {
+      font-size: 2rem;
+    }
+    &__paragrafo {
+      font-size: 1rem;
+    }
+    &__div:last-child {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+    &__grafico {
+      width: 40%;
+    }
+    &__colaboradores {
+      margin-top: -40%;
+      margin-left: 10rem;
+    }
+  }
+}
+@media(max-width: $medium) {
+  .cabecalho {
+    &__botao--contate-nos {
+      font-size: 1rem;
+    }
+    &__botao--assistir {
+      font-size: 1rem;
+    }
+    &__div:first-child {
+      width: 100%;
+    }
+  }
+}
+@media(max-width: $small) {
+  header {
+    padding: 1rem 1rem;
+  }
+  .logo {
+    padding: 0px;
+    width: 100px !important;
+  }
+  .cabecalho {
+    height: 100vh;
+    padding: 1rem 1rem;
+    &__grafico{
+      width: 70%;
+    }
+    &__botao--contate-nos {
+      font-size: .9rem;
+    }
+    &__botao--assistir {
+      font-size: .9rem;
+      margin-left: .2rem;
+
+    }
+  }
+}

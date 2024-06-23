@@ -46,3 +46,28 @@
 .graficos__detalhes {
   color: $text-color;
 }
+
+@media (max-width: $large) {
+  .graficos {
+    &__div {
+      grid-template-columns: 1fr 1fr !important;
+      grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    }
+    &__grafico article {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: $medium) {
+  .graficos {
+    &__titulo {
+      font-size: 2rem;
+    }
+    &__paragrafo {
+      font-size: 1rem;
+    }
+  }
+}
