@@ -161,7 +161,7 @@
     width: 90px !important;
   }
   .cabecalho {
-    height: 80vh;
+    height: 75vh;
     padding: 1rem 0.5rem;
     &__grafico {
       width: 100%;
@@ -181,7 +181,8 @@
     }
 
     &__div:last-child {
-      margin-top: 1rem;
+      margin-top: 0px;
+      margin-bottom: 2rem;
     }
     &__colaboradores {
       margin-top: -70%;
