@@ -11,7 +11,7 @@ function drawCabecalhoChart() {
 
   var options = {
     title: "Lorem Impsum",
-    hAxis: { title: "Year", titleTextStyle: { color: "#333" } },
+    hAxis: { title: "Ano", titleTextStyle: { color: "#333" } },
     vAxis: { minValue: 0 },
     fontName: "Poppins",
     fontSize: 14,
