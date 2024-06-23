@@ -102,6 +102,7 @@
 }
 @media(max-width: $small) {
   .rodape {
+    padding: 1rem 1rem ;
     &__campo {
       flex-direction: column;
     }

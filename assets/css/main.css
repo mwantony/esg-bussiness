@@ -402,6 +402,9 @@
   }
 }
 @media (max-width: 576px) {
+  .rodape {
+    padding: 1rem 1rem;
+  }
   .rodape__campo {
     flex-direction: column;
   }
