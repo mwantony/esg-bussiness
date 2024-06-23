@@ -40,7 +40,7 @@
 }
 
 .cabecalho__botao--contate-nos {
-  padding: .7rem 2.5rem;
+  padding: 0.7rem 2.5rem;
   font-size: 1.2rem;
   border: none;
   background-color: $main-color;
@@ -66,12 +66,12 @@
   transition: 500ms;
 
   &:hover {
-    opacity: .7;
+    opacity: 0.7;
     cursor: pointer;
   }
 
   > svg {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -99,7 +99,7 @@
   color: $text-color;
 }
 
-@media(max-width: $large) {
+@media (max-width: $large) {
   .cabecalho {
     height: 70vh;
     flex-direction: column-reverse;
@@ -125,7 +125,7 @@
     }
   }
 }
-@media(max-width: $medium) {
+@media (max-width: $medium) {
   .cabecalho {
     &__botao--contate-nos {
       font-size: 1rem;
@@ -138,7 +138,7 @@
     }
   }
 }
-@media(max-width: $small) {
+@media (max-width: $small) {
   header {
     padding: 1rem 1rem;
   }
@@ -148,21 +148,24 @@
   }
   .cabecalho {
     height: 80vh;
-    padding: 1rem .5rem;
-    &__grafico{
+    padding: 1rem 0.5rem;
+    &__grafico {
       width: 70%;
     }
     &__botao--contate-nos {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
     &__botao--assistir {
-      font-size: .8rem;
-      margin-left: .2rem;
-
+      font-size: 0.8rem;
+      margin-left: 0.2rem;
     }
     &__div:last-child {
       margin-top: 10rem;
       margin-bottom: -4rem;
+    }
+    &__colaboradores {
+      margin-top: -70%;
+      margin-left: 10rem;
     }
   }
 }

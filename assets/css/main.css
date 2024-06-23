@@ -162,6 +162,10 @@
     margin-top: 10rem;
     margin-bottom: -4rem;
   }
+  .cabecalho__colaboradores {
+    margin-top: -70%;
+    margin-left: 10rem;
+  }
 }
 .graficos {
   padding: 1rem 4rem;
