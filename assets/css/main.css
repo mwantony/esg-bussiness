@@ -18,6 +18,10 @@
 
 .cabecalho__div:first-child {
   width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: -6rem;
+  justify-content: center;
   z-index: 1;
 }
 .cabecalho__div:last-child {
@@ -105,6 +109,7 @@
     height: 80vh;
     flex-direction: column-reverse;
     margin-bottom: 5rem;
+    justify-content: space-around;
   }
   .cabecalho__titulo {
     font-size: 2rem;
@@ -155,8 +160,7 @@
     padding: 1rem 0.5rem;
   }
   .cabecalho__grafico {
-    width: 70%;
-    height: 500px;
+    width: 100%;
   }
   .cabecalho__botao--contate-nos {
     font-size: 0.9rem;
@@ -174,10 +178,6 @@
   .cabecalho__colaboradores {
     margin-top: -70%;
     margin-left: 10rem;
-  }
-  .cabecalho__grafico div > div, .cabecalho__grafico rect, .cabecalho__grafico g, .cabecalho__grafico svg {
-    width: 100% !important;
-    transform: translateX(-5px);
   }
 }
 .graficos {
