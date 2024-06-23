@@ -18,6 +18,7 @@
 
 .cabecalho__div:first-child {
   width: 60vw;
+  z-index: 1;
 }
 .cabecalho__div:last-child {
   width: 40vw;
@@ -75,15 +76,11 @@
   margin-right: 0.5rem;
 }
 
-.cabecalho__grafico {
-  width: 80%;
-}
-
 .cabecalho__colaboradores {
   background-color: white;
   padding: 1rem 2rem;
   border-radius: 10px;
-  margin-top: -4rem;
+  margin-top: -8rem;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,8 +97,12 @@
 }
 
 @media (max-width: 992px) {
+  .logo {
+    position: relative;
+    z-index: 1 !important;
+  }
   .cabecalho {
-    height: 70vh;
+    height: 80vh;
     flex-direction: column-reverse;
     margin-bottom: 5rem;
   }
@@ -118,11 +119,12 @@
     align-items: center;
   }
   .cabecalho__grafico {
-    width: 40%;
+    z-index: 0;
+    height: 450px;
   }
   .cabecalho__colaboradores {
     margin-top: -40%;
-    margin-left: 10rem;
+    margin-left: 20rem;
   }
 }
 @media (max-width: 768px) {
@@ -134,6 +136,10 @@
   }
   .cabecalho__div:first-child {
     width: 100%;
+  }
+  .cabecalho__grafico {
+    z-index: 0;
+    height: 350px;
   }
 }
 @media (max-width: 576px) {
@@ -150,6 +156,7 @@
   }
   .cabecalho__grafico {
     width: 70%;
+    height: 500px;
   }
   .cabecalho__botao--contate-nos {
     font-size: 0.9rem;
@@ -167,6 +174,10 @@
   .cabecalho__colaboradores {
     margin-top: -70%;
     margin-left: 10rem;
+  }
+  .cabecalho__grafico div > div, .cabecalho__grafico rect, .cabecalho__grafico g, .cabecalho__grafico svg {
+    width: 100% !important;
+    transform: translateX(-5px);
   }
 }
 .graficos {
@@ -443,5 +454,10 @@ svg .main-color {
 svg .secondary-color {
   fill: #2e3e5c;
 }
+
+/*  body {
+   width: 100vw;
+   overflow-x: hidden;
+ } */
 
 /*# sourceMappingURL=main.css.map */
