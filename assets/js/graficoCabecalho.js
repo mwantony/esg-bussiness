@@ -15,7 +15,7 @@ function drawCabecalhoChart() {
     vAxis: { minValue: 0 },
     fontName: "Poppins",
     fontSize: 14,
-    height: 500,
+    height: 400,
   };
 
   // Criação e renderização do gráfico
