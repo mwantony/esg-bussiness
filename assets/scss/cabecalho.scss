@@ -165,6 +165,10 @@
     padding: 1rem 0.5rem;
     &__grafico {
       width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      height: 40%;
     }
     &__botao--contate-nos {
       font-size: .9rem;
