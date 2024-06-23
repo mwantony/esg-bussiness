@@ -3,11 +3,12 @@
 }
 
 .graficos__titulo {
-  color: var(--title-color);
+  color: $title-color;
   font-size: 2.5rem;
 }
+
 .graficos__paragrafo {
-  color: var(--text-color);
+  color: $text-color;
   font-size: 1.3rem;
 }
 
@@ -18,26 +19,30 @@
   grid-template-rows: 1fr 1fr !important;
   gap: 1rem;
 }
+
 .graficos__grafico {
   text-decoration: none;
   transition: 500ms;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
-.graficos__grafico:hover {
-  opacity: 0.7;
-}
+
 .graficos__grafico--maior {
   grid-column: span 2;
   grid-row: span 2;
-}
 
-.graficos__grafico--maior img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .graficos__subtitulo {
-    font-size: 1.2rem;
-    color: var(--title-color);
+  font-size: 1.2rem;
+  color: $title-color;
 }
+
 .graficos__detalhes {
-    color: var(--text-color);
+  color: $text-color;
 }

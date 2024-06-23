@@ -9,15 +9,10 @@ button {
 }
 
 :root {
-  --main-color: 112, 111, 229; /* Setar a main-color como rgb. Ex: rgb(var(--main-color)) */
-  --title-color: #1e1f4b;
-  --text-color: #2e3e5c;
-  --text-shadow: rgba(0, 0, 0, 0.1);
+  --main-color: 112,111,229; /* Setar a main-color como rgb. Ex: rgb(var(--main-color)) */
+
   --secondary-color: #2e3e5c;
-  --footer: #2e3e5c;
+
 }
 
-.logo {
-  fill:  rgb(var(--main-color));
-  width: 120px;
-}
+
