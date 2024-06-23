@@ -154,10 +154,19 @@
     }
     &__botao--contate-nos {
       font-size: 0.8rem;
+      width: 40%;
+      padding-left: .5rem;
+      padding-right: .5rem;
     }
     &__botao--assistir {
       font-size: 0.8rem;
+      width: 60%;
+      padding-left: .5rem;
+      padding-right: .5rem;
       margin-left: 0.2rem;
+    }
+    &__botao--assistir svg{
+      margin-right: -.5rem;
     }
     &__div:last-child {
     }
