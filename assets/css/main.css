@@ -158,10 +158,6 @@
     font-size: 0.8rem;
     margin-left: 0.2rem;
   }
-  .cabecalho__div:last-child {
-    margin-top: 5rem;
-    margin-bottom: -4rem;
-  }
   .cabecalho__colaboradores {
     margin-top: -70%;
     margin-left: 10rem;
