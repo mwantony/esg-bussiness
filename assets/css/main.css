@@ -281,6 +281,30 @@
   grid-template-rows: 1fr 1fr;
 }
 
+@media (max-width: 992px) {
+  .informacoes {
+    flex-direction: column;
+  }
+  .informacoes__campo:last-child {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .informacoes {
+    padding: 1rem 1rem;
+    flex-direction: column;
+  }
+  .informacoes__campo:first-child {
+    width: 100%;
+  }
+  .informacoes__campo:last-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .informacoes__campo:last-child article {
+    margin: 1rem 0;
+  }
+}
 .rodape {
   background-color: #4544dd;
   margin: -0.5rem;
@@ -371,6 +395,34 @@
   padding-top: 3rem;
 }
 
+@media (max-width: 768px) {
+  .rodape__info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  .rodape__campo {
+    flex-direction: column;
+  }
+  .rodape__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape__subtitulo {
+    font-size: 1rem;
+  }
+  .rodape__navegacao--link {
+    font-size: 0.8rem;
+  }
+  .rodape__botao {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .rodape__copyright {
+    font-size: 0.8rem;
+  }
+}
 body,
 button {
   font-family: "Poppins", sans-serif;

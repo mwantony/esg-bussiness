@@ -91,3 +91,36 @@
   color: white;
   padding-top: 3rem;
 }
+
+@media(max-width: $medium) {
+  .rodape {
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+@media(max-width: $small) {
+  .rodape {
+    &__campo {
+      flex-direction: column;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+    &__subtitulo {
+      font-size: 1rem;
+    }
+    &__navegacao--link {
+      font-size: .8rem;
+    }
+    &__botao {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    &__copyright {
+      font-size: .8rem;
+    }
+  }
+}
