@@ -163,8 +163,9 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     height: 60%;
+    margin-bottom: 2rem;
   }
   .cabecalho__botao--contate-nos {
     font-size: 0.9rem;
