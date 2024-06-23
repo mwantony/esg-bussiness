@@ -182,6 +182,7 @@
   .cabecalho__colaboradores {
     margin-top: -70%;
     margin-left: 10rem;
+    transform: scale(0.8);
   }
 }
 .graficos {
