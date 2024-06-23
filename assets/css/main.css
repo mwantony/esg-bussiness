@@ -146,7 +146,7 @@
   }
   .cabecalho {
     height: 80vh;
-    padding: 1rem 1rem;
+    padding: 1rem 0.5rem;
   }
   .cabecalho__grafico {
     width: 70%;
