@@ -226,6 +226,15 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 576px) {
+  .graficos {
+    padding: 1rem 1rem;
+  }
+  .graficos__div {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .informacoes {
   display: flex;
   padding: 7rem 4rem;

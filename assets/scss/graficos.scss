@@ -71,3 +71,12 @@
     }
   }
 }
+@media (max-width: $small) {
+  .graficos {
+    padding: 1rem 1rem;
+    &__div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
