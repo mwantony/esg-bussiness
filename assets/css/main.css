@@ -158,6 +158,7 @@
   .cabecalho {
     height: 80vh;
     padding: 1rem 0.5rem;
+    justify-content: end;
   }
   .cabecalho__grafico {
     width: 100%;
