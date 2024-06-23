@@ -2,7 +2,7 @@
 function drawCabecalhoChart() {
   // Dados do gráfico
   var data = google.visualization.arrayToDataTable([
-    ["Ano", "Vendas", "Despesas"],
+    ["Ano", "Produto A", "Produto B"],
     ["2020", 1000, 400],
     ["2021", 1170, 460],
     ["2022", 660, 1120],
