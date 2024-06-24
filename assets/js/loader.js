@@ -6,3 +6,4 @@ google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawCabecalhoChart);
 google.charts.setOnLoadCallback(drawRoscaChart);
 google.charts.setOnLoadCallback(drawColunaChart);
+google.charts.setOnLoadCallback(drawColunaDuplaChart);
