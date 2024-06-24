@@ -13,7 +13,7 @@ function drawColunaChart() {
     fontName: "Poppins",
     fontSize: 14,
     legend: "none",
-    width: window.innerWidth > 1366 ? 350 : 290,
+    width: window.innerWidth < 576 ? 350 : 280,
     hAxis: {
       textPosition: "none",
     },
