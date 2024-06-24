@@ -15,7 +15,7 @@ function drawCabecalhoChart() {
     vAxis: { minValue: 0 },
     fontName: "Poppins",
     fontSize: 14,
-    height: window.innerWidth < 576 ? 350 : 550,
+    height: window.innerWidth < 576 ? 350 : 400,
     width: window.innerWidth < 576 ? 400 : 550,
   };
 
