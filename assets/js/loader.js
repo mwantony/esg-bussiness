@@ -7,3 +7,4 @@ google.charts.setOnLoadCallback(drawCabecalhoChart);
 google.charts.setOnLoadCallback(drawRoscaChart);
 google.charts.setOnLoadCallback(drawColunaChart);
 google.charts.setOnLoadCallback(drawColunaDuplaChart);
+google.charts.setOnLoadCallback(drawMaiorChart);
