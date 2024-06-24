@@ -30,6 +30,16 @@
   text-decoration: none;
   transition: 500ms;
 
+  
+}
+.graficos__grafico a{
+  text-decoration: none;
+  transition: 500ms;
+
+  
+}
+.graficos__legenda {
+  transition: 500ms;
   &:hover {
     opacity: 0.7;
   }

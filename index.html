@@ -7,7 +7,12 @@
       type="text/javascript"
       src="https://www.gstatic.com/charts/loader.js"
     ></script>
-    <script type="text/javascript" src="./assets/js/graficoCabecalho.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/graficoCabecalho.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/graficoRosca.js"></script>
+    <script type="text/javascript" src="./assets/js/graficoColuna.js"></script>
     <script type="text/javascript" src="./assets/js/loader.js"></script>
 
     <link rel="stylesheet" href="./assets/css/_styles.css" />
@@ -85,7 +90,7 @@
           alt="Gráfico"
         /> -->
         <div class="cabecalho__grafico" id="cabecalho__grafico"></div>
-        <div class="cabecalho__colaboradores" style="z-index: 1;">
+        <div class="cabecalho__colaboradores" style="z-index: 1">
           <div class="cabecalho__perfis">
             <img
               class="cabecalho__perfil"
@@ -128,6 +133,7 @@
               src="./assets/img/grafico1.png"
               alt=""
             />
+
             <legend class="graficos__legenda">
               <p class="graficos__detalhes">2 de outubro de 2023</p>
               <h4 class="graficos__subtitulo">Lorem Ipsum</h4>
@@ -141,11 +147,7 @@
         </a>
         <a href="" class="graficos__grafico">
           <article>
-            <img
-              class="graficos__imagem"
-              src="./assets/img/grafico2.png"
-              alt=""
-            />
+            <div class="graficos__imagem" id="grafico__coluna"></div>
             <legend class="graficos__legenda">
               <p class="graficos__detalhes">20 de junho de 2023</p>
               <h4 class="graficos__subtitulo">
@@ -184,21 +186,22 @@
             </legend>
           </article>
         </a>
-        <a href="" class="graficos__grafico graficos__grafico--pizza">
-          <article>
-            <img
-              class="graficos__imagem"
-              src="./assets/img/grafico5.png"
-              alt=""
-            />
+        <article class="graficos__grafico graficos__grafico--pizza">
+          <!--             <img
+          class="graficos__imagem"
+          src="./assets/img/grafico5.png"
+          alt=""
+          /> -->
+          <div class="graficos__imagem" id="grafico__rosca"></div>
+          <a href="">
             <legend class="graficos__legenda">
               <p class="graficos__detalhes">20 de junho de 2023</p>
               <h4 class="graficos__subtitulo">
                 Lorem ipsum dolor sit amet, consectetur
               </h4>
             </legend>
-          </article>
-        </a>
+          </a>
+        </article>
       </div>
     </section>
     <section class="informacoes">
